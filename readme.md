@@ -12,64 +12,41 @@
 </p>
 
 ## Usage
-<<<<<<< HEAD
 ### 1. Install [colorls](https://github.com/athityakumar/colorls)
    
 ### 2. Install  `rose-pine` or `rose-pine-moon` as `dark` theme
-=======
 1. Install [colorls](https://github.com/athityakumar/colorls)
    
 2. Install  `rose-pine` or `rose-pine-moon` as `dark` theme
->>>>>>> 63922c5 (feat: rose-pine variants)
 ```zsh
 # Create colorls color override path
 $ mkdir -p ~/.config/colorls
 
 # Download theme
-<<<<<<< HEAD
 $ wget -L -O ~/.config/colorls/dark_colors.yaml  https://github.com/bietdoikiem/colorls/raw/main/themes/rose-pine-moon/dark_colors.yaml
 
 # - or -
 # $ wget -L -O ~/.config/colorls/dark_colors.yaml https://github.com/bietdoikiem/colorls/raw/main/themes/rose-pine/dark_colors.yaml
-=======
-$ curl -o ~/.config/colorls/dark_colors.yaml  https://github.com/bietdoikiem/colorls/blob/main/themes/rose-pine-moon/dark_colors.yaml
-
-# - or -
-# $ curl -o ~/.config/colorls/dark_colors.yaml https://github.com/bietdoikiem/colorls/blob/main/themes/rose-pine/dark_colors.yaml
->>>>>>> 63922c5 (feat: rose-pine variants)
 
 # try out dark
 $ colorls --dark
 ```
 
-<<<<<<< HEAD
 ### 3. Install `rose-pine-dawn` as `light` theme
 ```zsh
 # Download theme
 $ wget -L -O ~/.config/colorls/light_colors.yaml https://github.com/bietdoikiem/colorls/raw/main/themes/rose-pine-dawn/light_colors.yaml
-=======
-3. Install `rose-pine-dawn` as `light` themee
-```zsh
-# Download theme
-$ curl -o ~/.config/colorls/light_colors.yaml https://github.com/bietdoikiem/colorls/blob/main/themes/rose-pine-dawn/light_colors.yaml
->>>>>>> 63922c5 (feat: rose-pine variants)
 
 # try out light
 $ colorls --light
 ```
 
-
 ## Template source
-These themes were generated c/o the rose-pine template generator.  To explore or build from source, please check out [const void* / rose-pine-colorls](https://github.com/const-void/rose-pine-colorls).
+`rose-pine` and `rose-pine-dawn` themes were generated c/o the rose-pine template generator.  To explore or build from the source, please check out [const void* / rose-pine-colorls](https://github.com/const-void/rose-pine-colorls).
 
 ## Gallery
-
 ![Rosé Pine with App](assets/rose-pine-moon.png)
 
 ## Thanks to
 - [bietdoikiem](https://github.com/bietdoikiem)
-<<<<<<< HEAD
 - [const void*](https://github.com/const-void)
-=======
-- [const void*](https://github.com/const-void)
->>>>>>> 63922c5 (feat: rose-pine variants)
