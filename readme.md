@@ -15,9 +15,6 @@
 ### 1. Install [colorls](https://github.com/athityakumar/colorls)
    
 ### 2. Install  `rose-pine` or `rose-pine-moon` as `dark` theme
-1. Install [colorls](https://github.com/athityakumar/colorls)
-   
-2. Install  `rose-pine` or `rose-pine-moon` as `dark` theme
 ```zsh
 # Create colorls color override path
 $ mkdir -p ~/.config/colorls
