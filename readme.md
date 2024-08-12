@@ -12,15 +12,38 @@
 </p>
 
 ## Usage
+### 1. Install [colorls](https://github.com/athityakumar/colorls)
+   
+### 2. Install  `rose-pine` or `rose-pine-moon` as `dark` theme
+```zsh
+# Create colorls color override path
+$ mkdir -p ~/.config/colorls
 
-1. Install [colorls](https://github.com/athityakumar/colorls)
-2. Copy `dark_colors.yaml` to `~/.config/colorls/`
-3. Use command `colorls --dark`
+# Download theme
+$ wget -L -O ~/.config/colorls/dark_colors.yaml  https://github.com/bietdoikiem/colorls/raw/main/themes/rose-pine-moon/dark_colors.yaml
+
+# - or -
+# $ wget -L -O ~/.config/colorls/dark_colors.yaml https://github.com/bietdoikiem/colorls/raw/main/themes/rose-pine/dark_colors.yaml
+
+# try out dark
+$ colorls --dark
+```
+
+### 3. Install `rose-pine-dawn` as `light` theme
+```zsh
+# Download theme
+$ wget -L -O ~/.config/colorls/light_colors.yaml https://github.com/bietdoikiem/colorls/raw/main/themes/rose-pine-dawn/light_colors.yaml
+
+# try out light
+$ colorls --light
+```
+
+## Template source
+`rose-pine` and `rose-pine-dawn` themes were generated c/o the rose-pine template generator.  To explore or build from the source, please check out [const void* / rose-pine-colorls](https://github.com/const-void/rose-pine-colorls).
 
 ## Gallery
-
 ![Rosé Pine with App](assets/rose-pine-moon.png)
 
 ## Thanks to
-
 - [bietdoikiem](https://github.com/bietdoikiem)
+- [const void*](https://github.com/const-void)
